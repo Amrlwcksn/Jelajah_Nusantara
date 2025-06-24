@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌏 Jelajah Nusantara
 
-## Getting Started
+**Jelajah Nusantara** adalah aplikasi web interaktif berbasis peta yang memudahkan pengguna—baik pelajar, pengajar, maupun masyarakat umum—untuk mengenal letak dan informasi 34 provinsi di Indonesia. Dibangun dengan Next.js, Tailwind CSS, dan Mapbox, aplikasi ini menyajikan pengalaman eksplorasi peta yang smooth, edukatif, dan responsif.
 
-First, run the development server:
+> ⚠️ Saat ini peta menampilkan **34 provinsi**. Belum termasuk pemekaran wilayah terbaru di Papua.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Fitur Utama
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🗺️ **Peta Interaktif** – Menampilkan wilayah provinsi Indonesia lengkap dengan style dan navigasi dinamis.
+- 🎯 **Interaksi Klik & Pilih** – Klik langsung pada provinsi atau pilih dari dropdown untuk melihat info detail.
+- ✨ **Highlight Wilayah** – Provinsi yang dipilih akan di-*zoom in* dan di-*highlight* dengan garis berwarna.
+- 💬 **Info Provinsi Lengkap** – Menampilkan nama, ibu kota, luas wilayah, deskripsi, dan fakta unik.
+- 🔔 **Pengumuman Otomatis** – Info penting tentang update jumlah provinsi muncul secara berkala.
+- 💨 **Smooth UI/UX** – Efek blur, animasi, dan style modern dengan Tailwind CSS.
+- 📈 **Tracking Analytics** – Terintegrasi dengan Umami untuk pelacakan pengunjung (jika diaktifkan).
+- 🌐 **Custom Domain** – Live di: [jelajahindonesia.id](https://jelajahindonesia.id)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📁 Struktur Data
 
-To learn more about Next.js, take a look at the following resources:
+### 1. **GeoJSON Wilayah**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+File: `/public/geojson/geoBoundaries-IDN-ADM1.geojson`  
+Digunakan sebagai data peta untuk menggambar batas wilayah provinsi.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 2. **Informasi Provinsi**
 
-## Deploy on Vercel
+File: `/public/geojson/provinsi_info.json`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contoh isi:
+```json
+{
+  "name": "Jawa Tengah",
+  "ibuKota": "Semarang",
+  "luas": "32.800 km²",
+  "deskripsi": "Provinsi di tengah Pulau Jawa dengan banyak situs budaya.",
+  "faktaUnik": "Memiliki Candi Borobudur, salah satu keajaiban dunia."
+}
