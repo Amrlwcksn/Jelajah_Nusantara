@@ -15,7 +15,7 @@
 - 🔔 **Pengumuman Otomatis** – Info penting tentang update jumlah provinsi muncul secara berkala.
 - 💨 **Smooth UI/UX** – Efek blur, animasi, dan style modern dengan Tailwind CSS.
 - 📈 **Tracking Analytics** – Terintegrasi dengan Umami untuk pelacakan pengunjung (jika diaktifkan).
-- 🌐 **Custom Domain** – Live di: [jelajahindonesia.id](https://jelajahindonesia.id)
+- 🌐 **Custom Domain** – Live di: [jelajahnusantara.my.id](https://www.jelajahnusantara.my.id/)
 
 ---
 
