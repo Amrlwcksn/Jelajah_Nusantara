@@ -1,0 +1,274 @@
+[
+  {
+    "name": "Aceh",
+    "namaIndonesia": "Aceh",
+    "ibuKota": "Banda Aceh",
+    "luas": "57.956 km²",
+    "deskripsi": "Aceh dikenal sebagai Serambi Mekah dan memiliki otonomi khusus berbasis syariat Islam.",
+    "faktaUnik": "Aceh adalah pintu masuk pertama Islam ke Nusantara."
+  },
+  {
+    "name": "North Sumatra",
+    "namaIndonesia": "Sumatera Utara",
+    "ibuKota": "Medan",
+    "luas": "72.981 km²",
+    "deskripsi": "Dikenal dengan Danau Toba dan budaya Batak yang kuat.",
+    "faktaUnik": "Danau Toba adalah danau vulkanik terbesar di dunia."
+  },
+  {
+    "name": "West Sumatra",
+    "namaIndonesia": "Sumatera Barat",
+    "ibuKota": "Padang",
+    "luas": "42.013 km²",
+    "deskripsi": "Provinsi ini kaya akan budaya Minangkabau.",
+    "faktaUnik": "Suku Minang menganut sistem matrilineal."
+  },
+  {
+    "name": "Riau",
+    "namaIndonesia": "Riau",
+    "ibuKota": "Pekanbaru",
+    "luas": "87.844 km²",
+    "deskripsi": "Terkenal sebagai salah satu penghasil minyak bumi terbesar di Indonesia.",
+    "faktaUnik": "Memiliki banyak sungai besar yang bisa dilayari."
+  },
+  {
+    "name": "Riau Islands",
+    "namaIndonesia": "Kepulauan Riau",
+    "ibuKota": "Tanjung Pinang",
+    "luas": "8.201 km²",
+    "deskripsi": "Wilayah kepulauan yang dekat dengan Singapura.",
+    "faktaUnik": "Pulau Batam merupakan pusat industri dan perdagangan internasional."
+  },
+  {
+    "name": "Jambi",
+    "namaIndonesia": "Jambi",
+    "ibuKota": "Jambi",
+    "luas": "50.160 km²",
+    "deskripsi": "Wilayah yang dilalui Sungai Batanghari, sungai terpanjang di Sumatera.",
+    "faktaUnik": "Memiliki situs megalitikum dan peninggalan Hindu-Buddha."
+  },
+  {
+    "name": "Bengkulu",
+    "namaIndonesia": "Bengkulu",
+    "ibuKota": "Bengkulu",
+    "luas": "19.919 km²",
+    "deskripsi": "Pernah menjadi tempat pengasingan Soekarno.",
+    "faktaUnik": "Bunga terbesar di dunia, Rafflesia arnoldii, tumbuh di sini."
+  },
+  {
+    "name": "South Sumatra",
+    "namaIndonesia": "Sumatera Selatan",
+    "ibuKota": "Palembang",
+    "luas": "91.592 km²",
+    "deskripsi": "Dikenal dengan Jembatan Ampera dan Sungai Musi.",
+    "faktaUnik": "Palembang adalah salah satu kota tertua di Indonesia."
+  },
+  {
+    "name": "Lampung",
+    "namaIndonesia": "Lampung",
+    "ibuKota": "Bandar Lampung",
+    "luas": "35.376 km²",
+    "deskripsi": "Gerbang masuk ke Pulau Sumatra dari arah Jawa.",
+    "faktaUnik": "Memiliki Taman Nasional Way Kambas sebagai tempat konservasi gajah."
+  },
+  {
+    "name": "Bangka-Belitung Islands",
+    "namaIndonesia": "Kepulauan Bangka Belitung",
+    "ibuKota": "Pangkalpinang",
+    "luas": "16.424 km²",
+    "deskripsi": "Terkenal dengan pantai dan batu granit raksasa.",
+    "faktaUnik": "Merupakan salah satu penghasil timah utama di dunia."
+  },
+  {
+    "name": "Banten",
+    "namaIndonesia": "Banten",
+    "ibuKota": "Serang",
+    "luas": "9.662 km²",
+    "deskripsi": "Wilayah yang berkembang pesat sebagai daerah industri.",
+    "faktaUnik": "Ujung Kulon merupakan habitat asli badak bercula satu."
+  },
+  {
+    "name": "Jakarta Special Capital Region",
+    "namaIndonesia": "DKI Jakarta",
+    "ibuKota": "Jakarta",
+    "luas": "661 km²",
+    "deskripsi": "Ibu kota Indonesia, pusat pemerintahan dan bisnis.",
+    "faktaUnik": "Memiliki transportasi MRT dan LRT modern."
+  },
+  {
+    "name": "West Java",
+    "namaIndonesia": "Jawa Barat",
+    "ibuKota": "Bandung",
+    "luas": "35.377 km²",
+    "deskripsi": "Provinsi terpadat dengan budaya Sunda yang kental.",
+    "faktaUnik": "Bandung pernah dijuluki Parijs van Java."
+  },
+  {
+    "name": "Central Java",
+    "namaIndonesia": "Jawa Tengah",
+    "ibuKota": "Semarang",
+    "luas": "32.548 km²",
+    "deskripsi": "Pusat budaya Jawa dengan banyak situs sejarah.",
+    "faktaUnik": "Borobudur adalah candi Buddha terbesar di dunia."
+  },
+  {
+    "name": "Special Region of Yogyakarta",
+    "namaIndonesia": "DI Yogyakarta",
+    "ibuKota": "Yogyakarta",
+    "luas": "3.133 km²",
+    "deskripsi": "Daerah istimewa dengan monarki kesultanan yang masih eksis.",
+    "faktaUnik": "Sultan juga menjabat sebagai Gubernur secara turun-temurun."
+  },
+  {
+    "name": "East Java",
+    "namaIndonesia": "Jawa Timur",
+    "ibuKota": "Surabaya",
+    "luas": "47.800 km²",
+    "deskripsi": "Kaya akan budaya dan memiliki banyak gunung berapi.",
+    "faktaUnik": "Surabaya dikenal sebagai Kota Pahlawan."
+  },
+  {
+    "name": "Bali",
+    "namaIndonesia": "Bali",
+    "ibuKota": "Denpasar",
+    "luas": "5.780 km²",
+    "deskripsi": "Pulau wisata dengan budaya Hindu yang kuat.",
+    "faktaUnik": "Tari Kecak Bali tidak diiringi alat musik."
+  },
+  {
+    "name": "West Nusa Tenggara",
+    "namaIndonesia": "Nusa Tenggara Barat",
+    "ibuKota": "Mataram",
+    "luas": "20.153 km²",
+    "deskripsi": "Mencakup Pulau Lombok dan Sumbawa.",
+    "faktaUnik": "Gunung Rinjani merupakan gunung tertinggi kedua di Indonesia."
+  },
+  {
+    "name": "East Nusa Tenggara",
+    "namaIndonesia": "Nusa Tenggara Timur",
+    "ibuKota": "Kupang",
+    "luas": "48.718 km²",
+    "deskripsi": "Wilayah kepulauan dengan alam yang eksotis.",
+    "faktaUnik": "Rumah bagi Komodo, kadal terbesar di dunia."
+  },
+  {
+    "name": "West Kalimantan",
+    "namaIndonesia": "Kalimantan Barat",
+    "ibuKota": "Pontianak",
+    "luas": "147.307 km²",
+    "deskripsi": "Dilewati garis khatulistiwa dan banyak sungai besar.",
+    "faktaUnik": "Tugu Khatulistiwa ada di Pontianak."
+  },
+  {
+    "name": "Central Kalimantan",
+    "namaIndonesia": "Kalimantan Tengah",
+    "ibuKota": "Palangka Raya",
+    "luas": "153.564 km²",
+    "deskripsi": "Provinsi terluas di Kalimantan.",
+    "faktaUnik": "Pernah direncanakan sebagai ibu kota baru oleh Bung Karno."
+  },
+  {
+    "name": "South Kalimantan",
+    "namaIndonesia": "Kalimantan Selatan",
+    "ibuKota": "Banjarbaru",
+    "luas": "38.744 km²",
+    "deskripsi": "Dikenal dengan pasar terapung dan tambang intan.",
+    "faktaUnik": "Intan terbesar di Indonesia ditemukan di Martapura."
+  },
+  {
+    "name": "East Kalimantan",
+    "namaIndonesia": "Kalimantan Timur",
+    "ibuKota": "Samarinda",
+    "luas": "129.066 km²",
+    "deskripsi": "Akan menjadi lokasi Ibu Kota Nusantara (IKN).",
+    "faktaUnik": "Ibu kota baru Indonesia direncanakan di wilayah ini."
+  },
+  {
+    "name": "North Kalimantan",
+    "namaIndonesia": "Kalimantan Utara",
+    "ibuKota": "Tanjung Selor",
+    "luas": "75.467 km²",
+    "deskripsi": "Provinsi termuda di Kalimantan.",
+    "faktaUnik": "Berbatasan langsung dengan negara Malaysia."
+  },
+  {
+    "name": "North Sulawesi",
+    "namaIndonesia": "Sulawesi Utara",
+    "ibuKota": "Manado",
+    "luas": "13.892 km²",
+    "deskripsi": "Terkenal dengan keindahan laut dan taman Bunaken.",
+    "faktaUnik": "Masyarakatnya dikenal sangat toleran."
+  },
+  {
+    "name": "Gorontalo",
+    "namaIndonesia": "Gorontalo",
+    "ibuKota": "Gorontalo",
+    "luas": "12.435 km²",
+    "deskripsi": "Provinsi dengan budaya unik dan sejarah Islam kuat.",
+    "faktaUnik": "Dijuluki 'Serambi Madinah'."
+  },
+  {
+    "name": "Central Sulawesi",
+    "namaIndonesia": "Sulawesi Tengah",
+    "ibuKota": "Palu",
+    "luas": "61.841 km²",
+    "deskripsi": "Provinsi terbesar di Sulawesi.",
+    "faktaUnik": "Dikelilingi pegunungan dan memiliki danau-danau besar."
+  },
+  {
+    "name": "South Sulawesi",
+    "namaIndonesia": "Sulawesi Selatan",
+    "ibuKota": "Makassar",
+    "luas": "46.717 km²",
+    "deskripsi": "Dikenal dengan suku Bugis dan Makassar.",
+    "faktaUnik": "Makassar adalah pelabuhan terbesar di Indonesia timur."
+  },
+  {
+    "name": "Southeast Sulawesi",
+    "namaIndonesia": "Sulawesi Tenggara",
+    "ibuKota": "Kendari",
+    "luas": "38.140 km²",
+    "deskripsi": "Memiliki banyak pulau kecil dan pantai indah.",
+    "faktaUnik": "Kaya akan hasil laut dan budaya maritim."
+  },
+  {
+    "name": "West Sulawesi",
+    "namaIndonesia": "Sulawesi Barat",
+    "ibuKota": "Mamuju",
+    "luas": "16.787 km²",
+    "deskripsi": "Provinsi muda hasil pemekaran Sulawesi Selatan.",
+    "faktaUnik": "Banyak ditemui situs arkeologi prasejarah."
+  },
+  {
+    "name": "Maluku",
+    "namaIndonesia": "Maluku",
+    "ibuKota": "Ambon",
+    "luas": "46.914 km²",
+    "deskripsi": "Pulau rempah-rempah yang bersejarah.",
+    "faktaUnik": "Pusat perdagangan rempah-rempah dunia pada masa kolonial."
+  },
+  {
+    "name": "North Maluku",
+    "namaIndonesia": "Maluku Utara",
+    "ibuKota": "Sofifi",
+    "luas": "31.982 km²",
+    "deskripsi": "Wilayah bekas Kesultanan Ternate dan Tidore.",
+    "faktaUnik": "Pulau Halmahera adalah yang terbesar di provinsi ini."
+  },
+  {
+    "name": "Papua",
+    "namaIndonesia": "Papua",
+    "ibuKota": "Jayapura",
+    "luas": "316.553 km²",
+    "deskripsi": "Provinsi terluas dengan budaya unik dan alam liar.",
+    "faktaUnik": "Memiliki puncak tertinggi di Indonesia: Cartenz."
+  },
+  {
+    "name": "West Papua",
+    "namaIndonesia": "Papua Barat",
+    "ibuKota": "Manokwari",
+    "luas": "102.955 km²",
+    "deskripsi": "Wilayah dengan hutan hujan lebat dan keanekaragaman hayati.",
+    "faktaUnik": "Wilayah ini punya keindahan laut seperti Raja Ampat."
+  }
+]
