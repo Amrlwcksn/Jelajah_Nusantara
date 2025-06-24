@@ -16,7 +16,7 @@ export default function TentangPage() {
       {/* 🔽 Background Image */}
       <div className="absolute inset-0 -z-10">
         <img
-          src="/images/bg_tentang.jpg"
+          src="/images/bg_tentang.webp"
           alt="Background Tentang"
           className="w-full h-full object-cover object-center opacity-80"
         />

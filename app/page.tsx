@@ -48,7 +48,7 @@ export default function Home() {
         >
           {/* 🖼️ Gambar Background */}
           <img
-            src="images/bg-home.jpg"
+            src="images/bg-home.webp"
             alt=""
             className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
           />
