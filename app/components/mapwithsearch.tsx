@@ -191,7 +191,7 @@ export default function PetaProvinsi() {
                     Jarak: <b>{measuredDistance.toFixed(2)} km</b>
                   </p>
                   <p className="text-xs text-red-200 italic -mt-2">
-                    *Estimasi saja. Jangan jadi acuan navigasi dunia nyata.
+                    ⚠️ Jarak ini cuma simulasi ya! Hanya perkiraan di atas peta, bukan jarak akurat dunia nyata.
                   </p>
                 </>
               )}
