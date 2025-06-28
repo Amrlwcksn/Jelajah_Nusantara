@@ -1,6 +1,6 @@
 'use client';
 
-import Maps, { Source, Layer, Marker } from 'react-map-gl';
+import Maps, { Source, Layer, Marker,NavigationControl, ScaleControl } from 'react-map-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import { useRef, useState, useEffect } from 'react';
 import mapboxgl from 'mapbox-gl';
@@ -98,15 +98,17 @@ export default function PetaProvinsi() {
     }
   };
 
+  
+
   return (
     <div className="fixed inset-0 z-0">
       {/* Sidebar Desktop */}
-      <div className="hidden sm:flex absolute top-0 left-0 z-10 bg-gray-800/60 backdrop-blur-md text-white py-4 px-2 shadow-lg border-r border-blue-300 h-full w-[95px] space-y-4 flex-col items-center">
+      <div className="hidden sm:flex absolute top-0 left-0 z-10 bg-gray-500/30 backdrop-blur-md text-white py-4 px-2 shadow-lg border-r border-blue-300 h-full w-[95px] space-y-4 flex-col items-center">
         <button
           onClick={() => setSidebarMode('provinsi')}
           className={clsx(
-            "w-12 h-12 rounded-lg flex items-center justify-center hover:bg-blue-500 transition",
-            sidebarMode === 'provinsi' && 'bg-blue-600'
+            "w-12 h-12 rounded-lg flex items-center justify-center hover:bg-blue-400 transition",
+            sidebarMode === 'provinsi' && 'bg-blue-500'
           )}
           title="Pilih Provinsi"
         >
@@ -115,8 +117,8 @@ export default function PetaProvinsi() {
         <button
           onClick={() => setSidebarMode('ukur')}
           className={clsx(
-            "w-12 h-12 rounded-lg flex items-center justify-center hover:bg-pink-500 transition",
-            sidebarMode === 'ukur' && 'bg-pink-600'
+            "w-12 h-12 rounded-lg flex items-center justify-center hover:bg-pink-400 transition",
+            sidebarMode === 'ukur' && 'bg-pink-500'
           )}
           title="Ukur Jarak"
         >
@@ -125,7 +127,7 @@ export default function PetaProvinsi() {
       </div>
 
       {/* Bottom Bar Mobile */}
-      <div className="flex sm:hidden fixed bottom-0 left-0 right-0 z-10 bg-gray-900/80 backdrop-blur-md text-white px-4 py-2 justify-around border-t border-blue-300">
+      <div className="flex sm:hidden fixed bottom-0 left-0 right-0 z-10 bg-gray-500/30 backdrop-blur-md text-white px-4 py-2 justify-around border-t border-blue-300">
         <button
           onClick={() => setSidebarMode('provinsi')}
           className={clsx(
@@ -150,7 +152,7 @@ export default function PetaProvinsi() {
 
       {/* Sidebar Content */}
       {sidebarMode !== 'none' && (
-        <div className="absolute left-0 ml-5 sm:ml-[110px] top-4 sm:top-4 z-10 bg-gray-500/30 backdrop-blur-md text-white px-5 py-4 rounded-xl shadow-lg border border-blue-300 w-[90vw] sm:w-[85vw] max-w-sm space-y-4 overflow-y-auto max-h-[80vh] mx-auto sm:mx-0">
+        <div className="absolute mt-6 md:mt-0 left-0 ml-5 sm:ml-[110px] top-4 sm:top-4 z-10 bg-gray-500/30 backdrop-blur-md text-white px-5 py-4 rounded-xl shadow-lg border border-blue-300 w-[90vw] sm:w-[85vw] max-w-sm space-y-4 overflow-y-auto max-h-[80vh] mx-auto sm:mx-0">
           {sidebarMode === 'provinsi' && (
             <>
               <label className="block text-sm font-medium">Pilih Provinsi</label>
@@ -261,11 +263,14 @@ export default function PetaProvinsi() {
             />
           </Source>
         )}
+        <div className='hidden md:block'>
+          <ScaleControl  position='top-right' unit="metric" />
+        </div>
       </Maps>
 
       {/* Info Box */}
       {info && (
-        <div className="absolute bottom-4 left-4 right-4 sm:left-6 sm:right-auto bg-gray-500/30 backdrop-blur-md text-white px-5 py-4 rounded-xl shadow-lg border border-blue-300 w-auto max-w-md mb-14 md:ml-20 md:mb-0">
+        <div className="absolute bottom-4 left-4 right-4 sm:left-6 sm:right-auto bg-gray-500/30 backdrop-blur-md text-white px-5 py-4 rounded-xl shadow-lg border border-blue-300 w-auto max-w-md mb-20 md:ml-20 md:mb-0">
           <h2 className="text-lg sm:text-xl font-bold">{info.name}</h2>
           <p className="text-sm sm:text-base mb-1"><strong>Ibu Kota:</strong> {info.ibuKota}</p>
           <p className="text-sm sm:text-base mb-1"><strong>Luas Wilayah:</strong> {info.luas}</p>
@@ -273,6 +278,8 @@ export default function PetaProvinsi() {
           <p className="text-sm sm:text-base italic text-yellow-200"><strong>Fakta Unik:</strong> {info.faktaUnik}</p>
         </div>
       )}
+
+
     </div>
   );
 }
